@@ -15,6 +15,7 @@ class CreateAlumnoTable extends Migration
         Schema::create('alumno', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nombre', 30);
+            $table->string('apellidos',30);
             $table->string('carrera', 30);
             $table->timestamps();
         });
