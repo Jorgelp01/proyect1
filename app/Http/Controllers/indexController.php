@@ -33,8 +33,9 @@ class indexController extends Controller
 
     public function generaPdf($id)
     {
+        $grupo = gruposModelo::getInfoGrupo($id);
         $alumnos = alumnoModelo::getAlumnos($id);
-        $vista = view('generapdf', compact('alumnos'));
+        $vista = view('generapdf', compact('grupo','alumnos'));
         $dompdf = \App::make('dompdf.wrapper');
         $dompdf->loadHTML($vista);
         return $dompdf->stream();
