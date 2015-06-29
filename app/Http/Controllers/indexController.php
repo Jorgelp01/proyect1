@@ -8,6 +8,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\materiasModelo;
 use App\gruposModelo;
+use App\alumnoModelo;
 
 class indexController extends Controller
 {
@@ -32,7 +33,8 @@ class indexController extends Controller
 
     public function generaPdf($id)
     {
-        $vista = view('generapdf', compact('grupos', 'total', 'alumnos'));
+        $alumnos = alumnoModelo::getAlumnos($id);
+        $vista = view('generapdf', compact('alumnos'));
         $dompdf = \App::make('dompdf.wrapper');
         $dompdf->loadHTML($vista);
         return $dompdf->stream();
