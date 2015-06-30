@@ -5,42 +5,40 @@
 <title>PDF. Grupo</title>
 </head>
 
-<body><div align="center">
-                <table width="100" border="6" align="center">
-            <tr>
-                <td align="left"><strong>Grupo {{$grupo->id}}</strong></td>
-            </tr>
-            <tr>
-                <td>Materia:</td>
-                <td>{{$grupo->nombre_materia}}</td>
-            </tr>
-            <tr>
-                <td>Horario:</td>
-                <td>{{$grupo->horario}}</td>
-            </tr>
-            <tr>
-                <td>Maestro:</td>
-                <td>{{$grupo->nombre}}</td>
-            </tr>
-            <tr>
-                <td>Aula:</td>
-                <td>{{$grupo->aula}}</td>
-            </tr>
-          </table>
-</div>
-<table width="100" border="6" align="center">
+<body>
+<table width="100" border="1" align="left">
   <tbody>
-    
+     <tr>
+        <td align="center" colspan="2"><strong>Grupo {{$grupo->id}}</strong></td>
+        <td><img src="images/logotec.png" width="100" height="100" alt="" /></td>
+        <td align="center" colspan="3">Instituto Tecnologico de Culiacan</td>
+      </tr>
+      <tr>
+        <td colspan="2">Materia:</td>
+        <td align="center" colspan="3.5">{{$grupo->nombre_materia}}</td>
+      </tr>
+      <tr>
+        <td colspan="2">Horario:</td>
+        <td align="center" colspan="3.5">{{$grupo->horario}}</td>
+      </tr>
+      <tr>
+        <td colspan="2">Maestro:</td>
+        <td align="center" colspan="3.5">{{$grupo->nombre}}</td>
+      </tr>
+      <tr>
+        <td colspan="2">Aula:</td>
+        <td align="center" colspan="3.5">{{$grupo->aula}}</td>
+      </tr>
     <tr>
-      <th style="text-align: center; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;" scope="col">ID</th>
-      <th style="text-align: center; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;" scope="col">NOMBRE</th>
-      <th style="font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif" scope="col">CARRERA</th>
+      <th style="text-align: center; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;" scope="col" colspan="2">ID</th>
+      <th style="text-align: center; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif;" scope="col" colspan="2">NOMBRE</th>
+      <th style="font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif" scope="col" colspan="2">CARRERA</th>
     </tr>
     @foreach($alumnos as $alumno)
     <tr>
-      <td style="text-align: center">{{$alumno->id}}</td>
-      <td style="text-align: center">{{$alumno->nombre}}</td>
-      <td style="text-align: center">{{$alumno->carrera}}</td>
+      <td style="text-align: center" colspan="2">{{$alumno->id}}</td>
+      <td style="text-align: center" colspan="2">{{$alumno->nombre}}</td>
+      <td style="text-align: center" colspan="2">{{$alumno->carrera}}</td>
     </tr>
     @endforeach
   </tbody>
