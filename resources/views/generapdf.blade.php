@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<table width="100" border="1" align="left">
+<table width="100" border="1" align="center">
   <tbody>
      <tr>
         <td align="center" colspan="2"><strong>Grupo {{$grupo->id}}</strong></td>
