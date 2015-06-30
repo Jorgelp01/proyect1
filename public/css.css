@@ -163,6 +163,14 @@ table.altrowstable td {
 	background-color:#c3dde0;
 }
 
+tr:nth-of-type(odd) {
+    background-color: #AAA;
+}
+tr:nth-of-type(even) {
+    background-color: #EEE;
+}
+
+
 /** MENU */
 
 #menu
