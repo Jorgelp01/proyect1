@@ -1,6 +1,8 @@
 
 @import url(http://fonts.googleapis.com/css?family=Bangers);
 @import url(http://fonts.googleapis.com/css?family=Black+Ops+One);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
 
 
 
@@ -29,8 +31,8 @@ h1, h2, h3
 h2
 {
 	text-transform: uppercase;
-	font-family: 'Black Ops One', cursive;
-	text-shadow: 0.08em 0.09em black;
+	font-family: 'Libre Baskerville', serif;
+	text-shadow: 0.05em 0.05em black;
 	color: #860659;
 }
 
@@ -133,20 +135,21 @@ hr
 
 
 }
+#sidebar{
+	margin-left: -10%;
+	margin-top: -5%;
+}
 
 #logo h1 a
 {
 	padding-left: 1px;
 	text-decoration: none;
-<<<<<<< HEAD
-	font-family: 'Bangers', cursive;
+
+	font-family: 'Oswald', sans-serif;
 	font-size: 1.5em;
 	
 	text-shadow: 0.05em 0.05em red;
-=======
-	font: 'Tw Cen MT';
-	font-size: 1.5em;
->>>>>>> origin/master
+
 	font-weight: 450;
 	color: black;
 }
