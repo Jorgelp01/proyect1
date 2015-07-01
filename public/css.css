@@ -138,10 +138,15 @@ hr
 {
 	padding-left: 1px;
 	text-decoration: none;
+<<<<<<< HEAD
 	font-family: 'Bangers', cursive;
 	font-size: 1.5em;
 	
 	text-shadow: 0.05em 0.05em red;
+=======
+	font: 'Tw Cen MT';
+	font-size: 1.5em;
+>>>>>>> origin/master
 	font-weight: 450;
 	color: black;
 }

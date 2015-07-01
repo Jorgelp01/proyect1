@@ -1,4 +1,5 @@
 <head>
+<link rel="shortcut icon" href="http://localhost:8000/images/LOGO_TEC_PNG_OK.png"> 	
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Sistema de gestión de grupos. ITC-SISTEMAS</title>
 <meta name="keywords" content="" />
