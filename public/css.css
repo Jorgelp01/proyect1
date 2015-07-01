@@ -151,9 +151,11 @@ table.altrowstable {
 	font-family: verdana,arial,sans-serif;
 	font-size:11px;
 	color:#333333;
-	border-width: 1px;
+	border-width: 3px;
 	border-color: #a9c6c9;
 	border-collapse: collapse;
+	text-shadow: 0.05em 0.05em red;
+	 box-shadow: 0.09em 0.09em red;
 }
 table.altrowstable th {
 	border-width: 1px;
@@ -179,6 +181,7 @@ tr:nth-of-type(odd) {
 }
 tr:nth-of-type(even) {
     background-color: #EEE;
+
 }
 
 
