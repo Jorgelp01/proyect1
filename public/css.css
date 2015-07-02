@@ -162,7 +162,7 @@ table.altrowstable {
 	border-width: 3px;
 	border-color: #a9c6c9;
 	border-collapse: collapse;
-	text-shadow: 0.02em 0.02em red;
+	
 	 box-shadow: 0.09em 0.09em red;
 }
 table.altrowstable th {
