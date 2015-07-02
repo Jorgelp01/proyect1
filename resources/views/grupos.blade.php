@@ -1,12 +1,12 @@
 @extends('index')
 
 @section('index')
-<h3>Grupos Disponibles</h3>
+<h3 align = "center">Grupos Disponibles</h3>
 <hr/>
 
 @foreach($grupos as $grupo)
     <div class="box2">
-        <table class="altrowstable" id="alternatecolor">
+        <table class="altrowstable" id="alternatecolor" align = "center">
             <tr>
                 <td align="left"><strong>Grupo {{$grupo->id}}</strong></td>
                 <td align="right"><a href="http://localhost:8000/pdf/{{$grupo->id}}"><img src="http://localhost:8000/images/pdficon.gif"></img></a></td>
