@@ -49,7 +49,7 @@ window.onload=function(){
 		<div id="sidebar">
 			<div id="logo">
 				<h1><a href="#">Gestión de</a></h1>
-				<h1><a href="#">de Grupos</a></h1>
+				<h1><a href="#">Grupos</a></h1>
 				<h1><a href="#">ITC Sistemas</a></h1>
 </div>
 <div id="menu" class="box">
