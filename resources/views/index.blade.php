@@ -43,6 +43,7 @@ window.onload=function(){
 			</div>
 			<div id="footer">
 				<div align="center"><p><h2>&copy; Ing Web. Derechos Reservados.</h2></p></div>
+				<div align="center"><span class="glyphicon glyphicon-user"></span><h2>Equipo 4</h2></div>
 			</div>
 		</div>
 		<div id="sidebar">
